@@ -1,12 +1,10 @@
 {
-    "name": "@laraveldesign/tags-input",
+    "name": "@mrshanebarron/tags-input",
     "version": "1.0.0",
-    "description": "Tags input component for Laravel",
-    "main": "resources/js/vue/index.js",
-    "module": "resources/js/vue/index.js",
-    "files": ["resources/js/vue"],
-    "keywords": ["laravel", "tags", "input", "tokenize", "livewire", "vue"],
-    "author": "Shane Barron <mrshanebarron@gmail.com>",
-    "license": "MIT",
-    "peerDependencies": {"vue": "^3.0.0"}
+    "description": "Tags input component for Vue 3",
+    "main": "resources/js/index.js",
+    "module": "resources/js/index.js",
+    "peerDependencies": {
+        "vue": "^3.0.0"
+    }
 }
