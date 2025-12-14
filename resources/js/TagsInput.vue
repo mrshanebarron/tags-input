@@ -30,7 +30,7 @@
 import { ref, computed } from 'vue';
 
 export default {
-  name: 'LdTagsInput',
+  name: 'SbTagsInput',
   props: {
     modelValue: { type: Array, default: () => [] },
     placeholder: { type: String, default: 'Add a tag...' },
